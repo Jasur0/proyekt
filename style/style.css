@@ -38,16 +38,13 @@
   margin-top: 70px;
 }
 .advice__left-title {
-    font-family: "Montserrat";
-    width: 90%;
-    font-size: 37px;
-    font-weight: 700;
-    line-height: 49px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-
-    
+  font-family: "Montserrat";
+  width: 90%;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .header__advice-left span {
   color: rgba(14, 204, 221, 1);
