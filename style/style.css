@@ -143,8 +143,12 @@
 /* header__info Abdulloh */
 
 .header__info{
-  background: white;
+  background-color: white;
+  height: 339px;
+}
+.header__all{
   position: relative;
+
 }
 .header__text-content{
   position: absolute;
@@ -153,9 +157,10 @@
   width: 100%;
   height: 283px;
   background: white;
-  padding: 25px 0 10px;
+  padding: 54px 0 23px;
   box-shadow: 0px 8px 41px -9px rgba(0, 0, 0, 0.25);
   top: -30px;
+  border-radius: 5px;
 }
 hr{
   width: 1px;
@@ -164,15 +169,18 @@ hr{
   border: none;
   border-radius: 1px;
 }
+
 .header__part{
   display: flex;
   flex-direction: column;
   width: 360px;
+ 
   padding: 0 30px 0 30px;
 }
 .header__text-top{
   display: flex;
   gap: 8px;
+  height: 70px;
 }
 
 .header__title{
@@ -181,6 +189,8 @@ hr{
   font-weight: 600;
   line-height: 29px;
   text-align: left;
+  display: flex;
+  align-content: end;
 }
 
 .header__text{
@@ -190,7 +200,7 @@ hr{
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  padding-top: 10px;
+  padding-top: 18px;
   width: 277px;
 }
 /* header__info Abdulloh anding*/
